@@ -12,36 +12,31 @@ public class MyViewPager extends ViewPager {
 
     private boolean enabled = true;
 
-    public MyViewPager(Context context)
-    {
+    public MyViewPager(Context context) {
         super(context);
     }
 
-    public MyViewPager(Context context, AttributeSet attrs)
-    {
+    public MyViewPager(Context context, AttributeSet attrs) {
         super(context, attrs);
     }
 
     @Override
-    public boolean onTouchEvent(MotionEvent event)
-    {
-        if(this.enabled == true)
+    public boolean onTouchEvent(MotionEvent event) {
+        if (this.enabled == true)
             return super.onTouchEvent(event);
 
         return false;
     }
 
     @Override
-    public boolean onInterceptTouchEvent(MotionEvent event)
-    {
-        if(this.enabled == true)
+    public boolean onInterceptTouchEvent(MotionEvent event) {
+        if (this.enabled == true)
             return super.onInterceptTouchEvent(event);
 
         return false;
     }
 
-    public void setPagingEnabled(boolean enabled)
-    {
+    public void setPagingEnabled(boolean enabled) {
         this.enabled = enabled;
     }
 

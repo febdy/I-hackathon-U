@@ -23,7 +23,6 @@
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/colorAccent"
         android:orientation="vertical">
 
         <TextView
@@ -49,6 +48,30 @@
             android:layout_height="wrap_content"
             android:lineSpacingMultiplier="1.2"
             android:paddingTop="2dp" />
+
+        <TextView
+            android:id="@+id/phoneText"
+            style="?android:textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lineSpacingMultiplier="1.2"
+            android:padding="1dp" />
+
+        <TextView
+            android:id="@+id/openHourText"
+            style="?android:textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lineSpacingMultiplier="1.2"
+            android:padding="1dp" />
+
+        <TextView
+            android:id="@+id/contentText"
+            style="?android:textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lineSpacingMultiplier="1.2"
+            android:padding="1dp" />
 
     </LinearLayout>
 
