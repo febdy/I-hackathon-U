@@ -19,7 +19,7 @@ public class ScreenSlidePageFragment extends Fragment {
         Bundle bundle = getArguments();
 
         ImageView image = (ImageView) rootView.findViewById(R.id.img_view);
-        image.setImageResource(R.drawable.palace1);//(Integer)bundle.get("image"));
+        image.setImageResource((Integer) bundle.get("image"));
 
         TextView nameText = (TextView) rootView.findViewById(R.id.nameText);
         nameText.setText((String) bundle.get("name"));
