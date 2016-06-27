@@ -1,0 +1,38 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_root"
+
+    tools:context="gdgssu.charge.your.life.RootFragment">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/root_question_0"
+        android:id="@+id/text_question"
+        android:textSize="50dp"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NO"
+        android:textSize="100dp"
+        android:layout_margin="10dp"
+        android:id="@+id/text_no"
+        android:textColor="@color/transparent"
+        android:layout_gravity="center_horizontal|bottom"
+        android:onClick="ChangeFragment"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="YES"
+        android:textSize="100dp"
+        android:layout_margin="10dp"
+        android:id="@+id/text_yes"
+        android:textColor="@color/transparent"
+        android:layout_gravity="right|center_vertical"
+        android:onClick="ChangeFragment" />
+
+</FrameLayout>

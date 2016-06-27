@@ -1,0 +1,34 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_branch"
+    tools:context="gdgssu.charge.your.life.BranchFragment">
+
+
+    <TextView
+        android:id="@+id/branch_question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/branch_question_3"
+        android:textSize="50dp" />
+
+    <TextView
+        android:id="@+id/brach_yes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|center_vertical"
+        android:text="YES"
+        android:textColor="@color/transparent"
+        android:textSize="100dp" />
+
+    <TextView
+        android:id="@+id/brach_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:text="NO"
+        android:textColor="@color/transparent"
+        android:textSize="100dp" />
+</FrameLayout>

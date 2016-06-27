@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Charge Your Life</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="root_question_0"> 밥은 먹었나요? </string>
+    <string name="branch_question_0"> 조용한 곳을 원하나요? </string>
+    <string name="branch_question_1"> 커피 좋아해요? </string>
+    <string name="branch_question_2"> 지금 혼자있어요? </string>
+    <string name="branch_question_3"> 단거 좋아해요? </string>
+
+    <string name="leaf_result"> 결과 보기 </string>
+    <string name="title_activity_splash_screen">SplashScreenActivity</string>
+    <string name="title_activity_map">MapActivity</string>
+    <string name="title_activity_result">ResultActivity</string>
+
+
+</resources>
